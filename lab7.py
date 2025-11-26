@@ -9,4 +9,3 @@ def centroid(p1x, p1y, p2x, p2y, p3x, p3y, m1, m2, m3):
     tot_mass = np.sum(mass)
     return cx, cy, tot_mass
 
-result = centroid(1, 2, 3, 4, 5, 1, 1, 1, 1)
